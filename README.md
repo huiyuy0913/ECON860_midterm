@@ -56,9 +56,13 @@ I saved all the information into [github_parsed_files](https://github.com/huiyuy
 
 ### [part2_github_checking.py](https://github.com/huiyuy0913/ECON860_midterm/blob/main/part2_github_checking.py)
 
-I extracted the login ID, repo count, follower count and member since from the [github_dataset.csv](https://github.com/huiyuy0913/ECON860_midterm/blob/main/github_parsed_files/github_dataset.csv) to update the data I got from part 1, and saved as 
-[part_github_dataset.csv](https://github.com/huiyuy0913/ECON860_midterm/blob/main/github_parsed_files/part_github_dataset.csv) in the [github_parsed_files](https://github.com/huiyuy0913/ECON860_midterm/tree/main/github_parsed_files).
+I compared the [github_users_clear.csv](https://github.com/huiyuy0913/ECON860_midterm/blob/main/parsed_files/github_users_clear.csv) obtained in part 1 with the [github_dataset.csv](https://github.com/huiyuy0913/ECON860_midterm/blob/main/github_parsed_files/github_dataset.csv) obtained in part 2. By merging these two files, I found there were several differences. 
 
+First, there are 6 users don't exist. Their names have been printed in [part2_github_parse.py](https://github.com/huiyuy0913/ECON860_midterm/blob/main/part2_github_parse.py).
+
+Second, some of them have updated their repositories. You can find who (and the numbers) have updated their repositories in the code.
+
+Third, some users' followers have changed. You can find whose (and the numbers) followers have changed in the code.
 
 ### [part2_github_request_bonus.py](https://github.com/huiyuy0913/ECON860_midterm/blob/main/part2_github_request_bonus.py)
 
